@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function MianFooter() {
   return (
     <>
-      <div className="bg-white dark:bg-gray-900">
+      <div className="bg-white dark:bg-gray-900 back absolute w-screen">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
           <div className="md:flex md:justify-between p-5">
             <div className="mb-6 md:mb-0 ">
