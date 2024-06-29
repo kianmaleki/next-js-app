@@ -5,7 +5,7 @@ import BlogPost from "@/components/BlogPost";
 export default function Home() {
   return (
     <main>
-      <div className="flex w-full items-center justify-evenly px-24">
+      <div className="flex  w-full items-center justify-evenly px-24">
         <div className="w-6/12 mx-4 flex justify-center items-center">
           <Image src="/assets/community.png" width={600} height={600} alt="" />
         </div>
