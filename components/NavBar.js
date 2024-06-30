@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <>
-      <nav className="bg-white border-gray-200 w-screen m-auto bg-gray-950">
+      <nav className="border-gray-200 w-screen m-auto bg-slate-950">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             href="/"
@@ -23,11 +23,11 @@ export default function NavBar() {
           </Link>
 
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 md:bg-gray-950 border-gray-700">
+            <ul className="font-medium flex flex-row p-4 md:p-0 mt-4 border  rounded-lgmd:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-gray-800 md:bg-gray-950 border-gray-700">
               <li>
                 <Link
                   href="/"
-                  className="block py-2 px-3 text-white rounded md:p-0 text-white md:hover:text-blue-500"
+                  className="block py-2 px-3 text-white rounded md:p-0 md:hover:text-blue-500"
                   aria-current="page"
                 >
                   Home
