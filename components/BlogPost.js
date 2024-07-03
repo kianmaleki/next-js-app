@@ -4,7 +4,7 @@ export default function BlogPost({ href }) {
   return (
     <>
       <Link
-        className="border border-gray-200 p-6 shadow-lg rounded-lg text-center w-1/4 m-10"
+        className="border border-gray-200 p-6 shadow-lg rounded-lg text-center w-2/5 m-10"
         href={"/blog/" + href}
       >
         <h1 className="text-2xl font-bold text-slate-50 mb-10">
